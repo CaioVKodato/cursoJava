@@ -1,7 +1,7 @@
 package applicationRevi;
 
 import entitiesRevi.Product;
-import entitiesRevi.Triangle;
+
 
 import java.util.Locale;
 import java.util.Scanner;
