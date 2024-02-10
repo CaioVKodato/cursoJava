@@ -1,6 +1,6 @@
 package applicationRevi;
 
-import entities.Student;
+
 import entitiesRevi.Triangle;
 
 import java.util.Locale;
