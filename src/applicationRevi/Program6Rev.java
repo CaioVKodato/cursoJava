@@ -14,11 +14,10 @@ public class Program6Rev {
 
         Banco banco;
 
-
         System.out.print("Enter account holder: ");
         String name = sc.nextLine();
 
-        System.out.print("Enter account number: ");
+        System.out.print("Enter the account number: ");
         int number = sc.nextInt();
         
         System.out.println("Is the a initial deposit (y/n)? ");
