@@ -33,8 +33,31 @@ public class Program6Rev {
             banco = new Banco(name,number);
         }
 
+        System.out.println();
+
         System.out.println("Account data: ");
         System.out.println(banco);
+
+        System.out.println();
+
+        System.out.print("Enter a deposit value: ");
+        double depositValue = sc.nextDouble();
+        banco.deposito(depositValue);
+        System.out.println("Updated account data: ");
+        System.out.println(banco);
+
+        System.out.println();
+
+        System.out.print("Enter a withdraw value: ");
+        double withdrawValue = sc.nextDouble();
+        banco.saque(withdrawValue);
+        System.out.println();
+        System.out.println("Updated account data: ");
+        System.out.println(banco);
+
+
+
+
 
 
 
