@@ -30,6 +30,6 @@ public class Hotel {
     }
 
     public String toString() {
-        return name + ", " + email
+        return name + ", " + email;
     }
 }
