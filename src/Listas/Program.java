@@ -42,6 +42,7 @@ public class Program {
 
         String primeiraP = list.stream().filter(nome -> nome.charAt(0) == 'J').findFirst().orElse(null);
         System.out.println(primeiraP);
+        System.out.println("----------------------------------------------");
 
     }
 }
