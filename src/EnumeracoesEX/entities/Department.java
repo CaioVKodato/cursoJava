@@ -1,4 +1,4 @@
-package EnumeraçõesEX.entities;
+package EnumeracoesEX.entities;
 
 public class Department {
 

@@ -1,4 +1,4 @@
-package EnumeraçõesEX.application;
+package EnumeracoesEX.application;
 
 public class Program {
 

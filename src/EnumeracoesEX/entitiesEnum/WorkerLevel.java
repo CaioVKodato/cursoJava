@@ -1,4 +1,4 @@
-package EnumeraçõesEX.entitiesEnum;
+package EnumeracoesEX.entitiesEnum;
 
 public enum WorkerLevel {
 
