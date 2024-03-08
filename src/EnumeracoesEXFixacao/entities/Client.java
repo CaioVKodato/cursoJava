@@ -1,11 +1,24 @@
 package EnumeracoesEXFixacao.entities;
 
+import java.lang.ref.Cleaner;
+import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.StringJoiner;
 
 public class Client {
+    private static  SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
     private String name;
     private String email;
     private Date birthDate;
+
+    public Client() {
+
+    }
+    public Client(String name, String email, Date birthDate) {
+        this.name = name;
+        this.email = email;
+        this.birthDate = birthDate;
+    }
 
     public String getName() {
         return name;
@@ -21,5 +34,17 @@ public class Client {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public Date getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(Date birthDate) {
+        this.birthDate = birthDate;
+    }
+
+    public String toString() {
+        return (name + " ("+ sdf.format(birthDate) + ") - " +email);
     }
 }
