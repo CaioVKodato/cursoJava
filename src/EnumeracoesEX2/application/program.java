@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
 public class program {
     public static void main(String[] args) throws ParseException {
 
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH/mm/ss");
 
         Comment c1 = new Comment("Have a nice trip !");
         Comment c2 = new Comment("Wow that's awesome");
@@ -18,6 +18,6 @@ public class program {
         p1.addComment(c1);
         p1.addComment(c2);
 
-
+        System.out.println(p1);
     }
 }
