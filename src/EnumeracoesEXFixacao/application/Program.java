@@ -5,6 +5,7 @@ import EnumeracoesEXFixacao.entities.Product;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -14,7 +15,14 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner teclado = new Scanner(System.in);
 
-        Client client = new Client("Maria","maria@gmail.com",sdf.parse("20/10/2005"));
-        System.out.println(client);
+        System.out.println("Enter client data: ");
+        System.out.print("Name: ");
+        String name = teclado.nextLine();
+        System.out.print("Email: ");
+        String email = teclado.nextLine();
+        System.out.println("Birth date: DD/MM/YYYY: ");
+        Date birth = sdf.parse(teclado.next());
+
+        Client cliente = new Client(name,email,birth);
     }
 }
