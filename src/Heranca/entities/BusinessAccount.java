@@ -27,7 +27,7 @@ public class BusinessAccount extends Account {
     }
 
     @Override
-    public void Withdraw(double amount) {
+    public final void Withdraw(double amount) {
         super.Withdraw(amount);
         balance -= 2.0;
     }
