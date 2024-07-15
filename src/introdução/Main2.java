@@ -1,3 +1,5 @@
+package introdução;
+
 public class Main2 {
     public static void main(String[] args) {
        String product1 = "Computer";

@@ -1,3 +1,5 @@
+package introdução;
+
 import java.util.Scanner;
 
 public class introProgObj {
