@@ -57,6 +57,7 @@ public class App {
         System.out.println();
         System.out.println("Order sumary: ");
         System.out.println(order);
+        teclado.close();
     }
 
 

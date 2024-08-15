@@ -1,9 +1,9 @@
 package EnumeracoesEXFixacao.entities;
 
-import java.lang.ref.Cleaner;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.StringJoiner;
+
 
 public class Client {
     private static  SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");

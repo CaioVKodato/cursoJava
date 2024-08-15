@@ -47,5 +47,6 @@ public class ProgramAlturas {
                 System.out.print(nomes[i] +"  " );
             }
         }
+        sc.close();
     }
 }

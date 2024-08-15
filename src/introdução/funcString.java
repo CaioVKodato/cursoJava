@@ -1,6 +1,5 @@
 package introdução;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class funcString {

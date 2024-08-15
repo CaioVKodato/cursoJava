@@ -38,5 +38,7 @@ public class Program {
         System.out.println();
         System.out.println("Negative numbers: " + numNeg);
 
+        sc.close();
+
     }
 }

@@ -5,7 +5,6 @@ import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
@@ -20,6 +19,7 @@ public class App {
         Locale.setDefault(Locale.US);
         Scanner teclado = new Scanner(System.in);
         List<Product> products = new ArrayList<>();
+        @SuppressWarnings("unused")
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
         System.out.print("Enter the number of products: ");

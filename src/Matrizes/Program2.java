@@ -44,5 +44,7 @@ public class Program2 {
                 }
             }
         }
+
+        sc.close();
     }
 }

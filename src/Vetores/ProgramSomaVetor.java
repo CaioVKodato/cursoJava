@@ -35,5 +35,6 @@ public class ProgramSomaVetor {
 
         System.out.printf("%nSoma = %.2f", soma);
         System.out.printf("%nMedia = %.2f", media);
+        sc.close();
     }
 }

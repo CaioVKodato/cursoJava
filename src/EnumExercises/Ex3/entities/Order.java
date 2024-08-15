@@ -10,6 +10,7 @@ import entitiesEnum.OrderStatus;
 
 public class Order {
     
+    @SuppressWarnings("unused")
     private static final SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
     
     private Date moment;

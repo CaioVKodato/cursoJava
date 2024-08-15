@@ -34,5 +34,6 @@ public class ProgramNumPares {
         }
         System.out.println();
         System.out.printf("QUANTIDADE DE PARES: %d ",numPares);
+        sc.close();
     }
 }
