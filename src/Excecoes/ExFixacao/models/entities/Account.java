@@ -1,7 +1,7 @@
 package Excecoes.ExFixacao.models.entities;
 
 import Excecoes.ExFixacao.models.exception.BusinessException;
-import Excecoes.ExceptionPersonality.models.exceptions.DomainException;
+
 
 public class Account {
     private Integer number;
