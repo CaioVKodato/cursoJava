@@ -1,10 +1,10 @@
 package Excecoes.ExFixacao.models.exception;
 
-public class DomainException extends RuntimeException {
+public class BusinessException extends RuntimeException {
     
     private static final long serialVersionUID = 1L;
 
-    public DomainException(String msg) {
+    public BusinessException(String msg) {
         super(msg);
     }
 }

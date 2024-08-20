@@ -4,7 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 import Excecoes.ExFixacao.models.entities.Account;
-import Excecoes.ExFixacao.models.exception.DomainException;
+import Excecoes.ExFixacao.models.exception.BusinessException;
 
 public class Program {
     public static void main(String[] args) {
@@ -35,7 +35,7 @@ public class Program {
         conta.withdraw(amount);
         System.out.println("New balance = " + String.format("%.2f", conta.getBalance()));
         }
-        catch (DomainException e) {
+        catch (BusinessException e) {
             System.out.println(e.getMessage());
         }
         catch (RuntimeException e) {

@@ -1,5 +1,6 @@
 package Excecoes.ExFixacao.models.entities;
 
+import Excecoes.ExFixacao.models.exception.BusinessException;
 import Excecoes.ExceptionPersonality.models.exceptions.DomainException;
 
 public class Account {
@@ -60,10 +61,10 @@ public class Account {
 
     public void verifyWithdraw(double amount) {
         if (amount > getBalance()) {
-            throw new DomainException("Not enough balance");
+            throw new BusinessException("Not enough balance");
         }
         if (amount > getWithdrawLimit()) {
-            throw new DomainException("The amount exceeds withdraw limit");
+            throw new BusinessException("The amount exceeds withdraw limit");
         }
     }
 
