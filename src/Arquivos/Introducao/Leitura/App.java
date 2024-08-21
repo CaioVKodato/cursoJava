@@ -1,4 +1,4 @@
-package Arquivos.Introducao;
+package Arquivos.Introducao.Leitura;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
