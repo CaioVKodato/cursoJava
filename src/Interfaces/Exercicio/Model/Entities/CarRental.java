@@ -2,8 +2,6 @@ package Interfaces.Exercicio.Model.Entities;
 
 import java.time.LocalDateTime;
 
-import Interfaces.Exercicio.Model.Invoice;
-
 public class CarRental {
 
     private LocalDateTime start;

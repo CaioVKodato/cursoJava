@@ -1,4 +1,4 @@
-package Interfaces.Exercicio.Model;
+package Interfaces.Exercicio.Model.Entities;
 
 public class Invoice {
 
@@ -33,7 +33,7 @@ public class Invoice {
     }
 
     public Double getTotalPayament() {
-       return getBasicPayament() * getTax();
+       return getBasicPayament() + getTax();
     }
 
 }
