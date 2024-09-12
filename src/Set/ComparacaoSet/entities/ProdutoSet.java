@@ -1,6 +1,6 @@
 package Set.ComparacaoSet.entities;
 
-public class ProdutoSet {
+public class ProdutoSet implements Comparable<ProdutoSet> {
     private String name;
     private Double price;
 
@@ -54,6 +54,17 @@ public class ProdutoSet {
         } else if (!price.equals(other.price))
             return false;
         return true;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Product = " + name + "  Price: " + String.format("%.2f", price);
+    }
+
+    @Override
+    public int compareTo(ProdutoSet other) {
+       return name.toUpperCase().compareTo(other.getName().toUpperCase());
     }
 
     
