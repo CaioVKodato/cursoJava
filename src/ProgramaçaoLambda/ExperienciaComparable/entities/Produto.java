@@ -25,6 +25,11 @@ public class Produto {
         this.price = price;
     }
 
+
+    @Override
+    public String toString() {
+        return "Name: " + name + "  Price: " + String.format("%.2f",price);
+    }
     
 
 
