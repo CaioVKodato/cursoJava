@@ -48,5 +48,6 @@ public class Program {
         catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
         }
+        teclado.close();
     }
 }

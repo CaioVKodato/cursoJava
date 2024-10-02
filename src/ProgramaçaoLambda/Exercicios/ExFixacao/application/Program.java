@@ -56,5 +56,6 @@ public class Program {
         } catch (Exception e) {
             System.out.println("ERROR: " + e.getMessage());
         }
+        teclado.close();
     }
 }
